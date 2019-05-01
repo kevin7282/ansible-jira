@@ -1,15 +1,5 @@
 # Ansible deployment for JIRA
 
-## 1. QuickStart
-
-```
-ansible-galaxy install fauzigo.jira
-# Deploy to a remote
-ansible-playbook jira.yml --extra-vars=/path/to/file_vars
-
-```
-
-
 ## Table of contents
 
 - [1. QuickStart](#1-quickstart)
@@ -19,6 +9,14 @@ ansible-playbook jira.yml --extra-vars=/path/to/file_vars
   - [4.1 Playbook Arguments](#41-playbook-arguments)
 - [5. After Install](#5-after-install)
 
+## 1. QuickStart
+
+```
+ansible-galaxy install fauzigo.jira
+# Deploy to a remote
+ansible-playbook jira.yml --extra-vars=/path/to/file_vars
+
+```
 
 ## 2. Overview
 
